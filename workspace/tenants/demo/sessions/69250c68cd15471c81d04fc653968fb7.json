@@ -1,0 +1,19 @@
+{
+  "session_id": "69250c68cd15471c81d04fc653968fb7",
+  "thread_id": "test-conv-1",
+  "tenant_id": "demo",
+  "worker_id": "",
+  "messages": [
+    {
+      "role": "user",
+      "content": "你好",
+      "timestamp": "2026-04-03T22:08:25.724853+00:00",
+      "skill_id": null,
+      "spawned_task_id": null
+    }
+  ],
+  "spawned_tasks": [],
+  "created_at": "2026-04-03T22:08:25.724783+00:00",
+  "last_active_at": "2026-04-03T22:08:25.724853+00:00",
+  "metadata": []
+}

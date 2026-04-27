@@ -1,0 +1,28 @@
+{
+  "task_id": "ae4ff8502008448aba4075728e8fd077",
+  "worker_id": "analyst-01",
+  "tenant_id": "demo",
+  "skill_id": "general-query",
+  "preferred_skill_ids": [],
+  "provenance": {
+    "source_type": "manual",
+    "source_id": "",
+    "goal_id": "",
+    "goal_task_id": "",
+    "duty_id": "",
+    "trigger_id": "",
+    "suggestion_id": "",
+    "parent_task_id": ""
+  },
+  "gate_level": "gated",
+  "status": "completed",
+  "task_description": "你能帮我做什么",
+  "pre_script": null,
+  "result_summary": "LLM Error: litellm.BadRequestError: OpenAIException - tools[0].type:type cannot be empty.. Received Model Group=tier-standard\nAvailable Model Group Fallbacks=['tier-strong']\nError doing the fallback: litellm.BadRequestError: OpenAIException - tools[0].type:type cannot be empty.. Received Model Group=tier-strong\nAvailable Model Group Fallbacks=['tier-reasoning']\nError doing the fallback: litellm.BadRequestError: OpenAIException - tools[0].type:type cannot be empty.No fallback model group found fo",
+  "error_message": "",
+  "main_session_key": null,
+  "created_at": "2026-04-26T04:43:56.696459+00:00",
+  "started_at": "2026-04-26T04:43:56.696516+00:00",
+  "completed_at": "2026-04-26T04:44:13.971031+00:00",
+  "run_id": "33139d726e9f48f8a8a3b28747845b0d"
+}

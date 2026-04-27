@@ -1,0 +1,10 @@
+{
+  "tenant_id": "demo",
+  "name": "Demo Tenant",
+  "trust_level": 1,
+  "tool_policy": {
+    "denied_tools": ["admin_console"]
+  },
+  "mcp_remote_allowed": false,
+  "default_worker": "analyst-01"
+}

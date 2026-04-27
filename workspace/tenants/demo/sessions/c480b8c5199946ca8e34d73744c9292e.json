@@ -1,0 +1,26 @@
+{
+  "session_id": "c480b8c5199946ca8e34d73744c9292e",
+  "thread_id": "main:analyst-01",
+  "tenant_id": "demo",
+  "worker_id": "analyst-01",
+  "messages": [
+    {
+      "role": "system",
+      "content": "[Heartbeat 拦截] 派生任务需要人工确认后才能执行。 可使用 /confirmations 查看，任务内容: [Goal Health Check] Restore daily data quality SLA\n\nGoal ID: goal-demo-data-quality\nPriority: high\nRecommended Action: escalate\nDeviation Score: 0.93\nOverdue Milestones: ms-1, ms-2\nStalled Tasks: ms-1-t2\nNewly Actionable Tasks: none\n\nPlease assess the current risk, propose the next best action, and identify whether a stakeholder progress update is required.",
+      "timestamp": "2026-04-25T16:57:37.909062+00:00",
+      "skill_id": null,
+      "spawned_task_id": null
+    }
+  ],
+  "spawned_tasks": [],
+  "created_at": "2026-04-23T01:22:00.076031+00:00",
+  "last_active_at": "2026-04-25T16:57:37.909062+00:00",
+  "ttl_seconds": 0,
+  "metadata": [],
+  "session_type": "main",
+  "main_session_key": "main:analyst-01",
+  "inbox_cursor": "2026-04-26T11:44:20.742137+00:00",
+  "last_heartbeat_at": "2026-04-26T11:54:20.791811+00:00",
+  "open_concerns": [],
+  "task_refs": []
+}

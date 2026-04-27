@@ -1,0 +1,33 @@
+{
+  "session_id": "e73beed7259241a39c54a51087e851eb",
+  "thread_id": "chat-1777135528164",
+  "tenant_id": "demo",
+  "worker_id": "analyst-01",
+  "messages": [
+    {
+      "role": "user",
+      "content": "你能帮我做什么",
+      "timestamp": "2026-04-25T16:45:41.965705+00:00",
+      "skill_id": null,
+      "spawned_task_id": null
+    },
+    {
+      "role": "assistant",
+      "content": "LLM Error: LiteLLM Router unavailable and no valid default_tier/model could be resolved from litellm.json.",
+      "timestamp": "2026-04-25T16:45:43.100290+00:00",
+      "skill_id": null,
+      "spawned_task_id": null
+    }
+  ],
+  "spawned_tasks": [],
+  "created_at": "2026-04-25T16:45:41.964167+00:00",
+  "last_active_at": "2026-04-25T16:45:43.100290+00:00",
+  "ttl_seconds": 0,
+  "metadata": [],
+  "session_type": "thread",
+  "main_session_key": null,
+  "inbox_cursor": null,
+  "last_heartbeat_at": null,
+  "open_concerns": [],
+  "task_refs": []
+}

@@ -1,0 +1,6 @@
+{
+  "goal_check:goal-demo-data-quality:escalate": {
+    "summary": "[Goal Health Check] Restore daily data quality SLA\n\nGoal ID: goal-demo-data-quality\nPriority: high\nRecommended Action: escalate\nDeviation Score: 0.93\nOverdue Milestones: ms-1, ms-2\nStalled Tasks: ms-1",
+    "notified_at": "2026-04-25T16:57:38.009807+00:00"
+  }
+}

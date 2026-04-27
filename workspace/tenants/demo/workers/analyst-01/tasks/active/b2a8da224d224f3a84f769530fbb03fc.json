@@ -1,0 +1,28 @@
+{
+  "task_id": "b2a8da224d224f3a84f769530fbb03fc",
+  "worker_id": "analyst-01",
+  "tenant_id": "demo",
+  "skill_id": "general-query",
+  "preferred_skill_ids": [],
+  "provenance": {
+    "source_type": "manual",
+    "source_id": "",
+    "goal_id": "",
+    "goal_task_id": "",
+    "duty_id": "",
+    "trigger_id": "",
+    "suggestion_id": "",
+    "parent_task_id": ""
+  },
+  "gate_level": "gated",
+  "status": "completed",
+  "task_description": "ping",
+  "pre_script": null,
+  "result_summary": "smoke-ok 9706b2e2",
+  "error_message": "",
+  "main_session_key": null,
+  "created_at": "2026-04-23T02:38:52.935138+00:00",
+  "started_at": "2026-04-23T02:38:52.935237+00:00",
+  "completed_at": "2026-04-23T02:38:52.975397+00:00",
+  "run_id": "3b0bca714c43408d9da602e41bc818ea"
+}

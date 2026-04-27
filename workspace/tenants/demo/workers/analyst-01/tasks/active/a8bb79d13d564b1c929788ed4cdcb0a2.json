@@ -1,0 +1,14 @@
+{
+  "task_id": "a8bb79d13d564b1c929788ed4cdcb0a2",
+  "worker_id": "analyst-01",
+  "tenant_id": "demo",
+  "skill_id": "general-query",
+  "status": "completed",
+  "task_description": "你好",
+  "result_summary": "LLM Error: litellm.AuthenticationError: AuthenticationError: OpenAIException - The api_key client option must be set either by passing api_key to the client or by setting the OPENAI_API_KEY environment variable",
+  "error_message": "",
+  "created_at": "2026-04-03T22:08:25.725445+00:00",
+  "started_at": "2026-04-03T22:08:25.725454+00:00",
+  "completed_at": "2026-04-03T22:08:25.743382+00:00",
+  "run_id": "3e12ea2c33dc4a70b0644ed83fc8503d"
+}

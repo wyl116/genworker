@@ -1,0 +1,81 @@
+mode: baseline_default
+
+include:
+  - src/**
+  - tests/**
+  - frontend/**
+  - workspace/**
+  - start.py
+  - requirements.txt
+  - docs/ARCHITECTURE.md
+  - docs/im-channel-runbook.md
+
+exclude:
+  - src/enterprise/**
+  - src/services/mysql/**
+  - configs/enterprise/**
+  - docs/internal/**
+  - tests/enterprise/**
+  - frontend/node_modules/**
+
+replace_from_overlay:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - requirements.txt
+  - .env.example
+  - .github/workflows/
+  - scripts/build_frontend.sh
+
+add_from_overlay:
+  - configs/config.example.env
+  - configs/litellm_local.json.example
+  - configs/profiles/local.env
+  - configs/profiles/local_memory.env
+  - configs/profiles/advanced.env
+  - configs/profiles/enterprise.env
+  - docs/API.md
+  - docs/CONFIGURATION.md
+  - docs/DEPLOYMENT.md
+  - docs/LLM.md
+  - docs/RELEASE.md
+  - docs/RELEASE_NOTES.md
+  - workspace.example/
+
+string_rewrites:
+  - match: "genworker"
+    replace: "genworker"
+
+test_scope:
+  include_editions: [baseline, community]
+  exclude_editions: [enterprise]
+
+dependency_allowlist:
+  - fastapi
+  - uvicorn
+  - pydantic
+  - pydantic-settings
+  - litellm
+  - openai
+  - tiktoken
+  - openviking
+  - langgraph
+  - langchain-core
+  - langchain-community
+  - python-frontmatter
+  - apscheduler
+  - pandas
+  - PyYAML
+  - python-dotenv
+  - httpx
+  - requests
+  - lark-oapi
+  - dingtalk-stream
+  - slack_sdk
+  - redis
+  - PyJWT
+  - sse-starlette
+  - tenacity
+  - pytest
+  - pytest-asyncio
+  - asgi-lifespan

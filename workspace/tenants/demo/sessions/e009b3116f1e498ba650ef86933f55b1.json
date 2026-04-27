@@ -1,0 +1,47 @@
+{
+  "session_id": "e009b3116f1e498ba650ef86933f55b1",
+  "thread_id": "chat-1777178626957",
+  "tenant_id": "demo",
+  "worker_id": "analyst-01",
+  "messages": [
+    {
+      "role": "user",
+      "content": "你能帮我做什么",
+      "timestamp": "2026-04-26T04:43:56.693503+00:00",
+      "skill_id": null,
+      "spawned_task_id": null
+    },
+    {
+      "role": "assistant",
+      "content": "LLM Error: litellm.BadRequestError: OpenAIException - tools[0].type:type cannot be empty.. Received Model Group=tier-standard\nAvailable Model Group Fallbacks=['tier-strong']\nError doing the fallback: litellm.BadRequestError: OpenAIException - tools[0].type:type cannot be empty.. Received Model Group=tier-strong\nAvailable Model Group Fallbacks=['tier-reasoning']\nError doing the fallback: litellm.BadRequestError: OpenAIException - tools[0].type:type cannot be empty.No fallback model group found for original model_group=tier-reasoning. Fallbacks=[{'tier-fast': ['tier-standard']}, {'tier-standard': ['tier-strong']}, {'tier-strong': ['tier-reasoning']}]. Received Model Group=tier-reasoning\nAvailable Model Group Fallbacks=None\nError doing the fallback: litellm.BadRequestError: OpenAIException - tools[0].type:type cannot be empty.No fallback model group found for original model_group=tier-reasoning. Fallbacks=[{'tier-fast': ['tier-standard']}, {'tier-standard': ['tier-strong']}, {'tier-strong': ['tier-reasoning']}] LiteLLM Retried: 2 times, LiteLLM Max Retries: 3 LiteLLM Retried: 2 times, LiteLLM Max Retries: 3 LiteLLM Retried: 2 times, LiteLLM Max Retries: 3 LiteLLM Retried: 2 times, LiteLLM Max Retries: 3",
+      "timestamp": "2026-04-26T04:44:48.707424+00:00",
+      "skill_id": null,
+      "spawned_task_id": null
+    },
+    {
+      "role": "user",
+      "content": "你能帮我做什么",
+      "timestamp": "2026-04-26T04:55:16.903428+00:00",
+      "skill_id": null,
+      "spawned_task_id": null
+    },
+    {
+      "role": "assistant",
+      "content": "你好！我是 Analyst One，一个专注于本地项目协作的分析型助手。我可以帮助你完成以下工作：\n\n## 📋 项目分析与规划\n- **梳理任务**：帮你分解复杂任务，识别关键步骤和依赖关系\n- **总结上下文**：分析项目文件和代码，提取关键信息\n- **检查配置**：审查项目配置文件，发现潜在问题\n\n## 🔧 文件与代码操作\n- 读写、搜索和编辑项目文件\n- 执行 Python 代码进行数据处理和分析\n- 使用正则表达式搜索文件内容\n- 通过模式匹配查找特定文件\n\n## 🌐 网络与信息获取\n- 搜索网络信息（文档、技术资料等）\n- 获取网页内容并转换为可读文本\n- 查找最新资讯和解决方案\n\n## 📧 邮件处理\n- 搜索和发送邮件\n- 处理邮件附件\n- 管理邮件线程\n\n## 🔄 任务管理\n- 创建和追踪任务进度\n- 设置任务依赖关系\n- 并行执行子任务以提高效率\n\n## ⏰ 时间处理\n- 解析模糊时间表达式（如\"三周前\"、\"下个月\"）\n- 处理时区转换\n\n---\n\n**我的工作特点：**\n- ✅ 优先直接执行操作，少问问题\n- ✅ 给出可以立即执行的下一步建议\n- ✅ 可以并行处理多个子任务\n- ✅ 持续关注你的项目目标\n\n**你可以告诉我：**\n- \"帮我分析这个项目的结构\"\n- \"检查配置文件是否有问题\"\n- \"搜索某个问题的解决方案\"\n- \"梳理这个任务需要做什么\"\n\n你现在有什么需要帮助的吗？",
+      "timestamp": "2026-04-26T04:55:48.087121+00:00",
+      "skill_id": null,
+      "spawned_task_id": null
+    }
+  ],
+  "spawned_tasks": [],
+  "created_at": "2026-04-26T04:43:56.693431+00:00",
+  "last_active_at": "2026-04-26T04:55:48.087121+00:00",
+  "ttl_seconds": 0,
+  "metadata": [],
+  "session_type": "thread",
+  "main_session_key": null,
+  "inbox_cursor": null,
+  "last_heartbeat_at": null,
+  "open_concerns": [],
+  "task_refs": []
+}

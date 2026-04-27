@@ -1,0 +1,61 @@
+{
+  "session_id": "7fe00aeec79b4beda2ae8e85820a9858",
+  "thread_id": "chat-001",
+  "tenant_id": "demo",
+  "worker_id": "analyst-01",
+  "messages": [
+    {
+      "role": "user",
+      "content": "ping",
+      "timestamp": "2026-04-23T01:18:47.889781+00:00",
+      "skill_id": null,
+      "spawned_task_id": null
+    },
+    {
+      "role": "assistant",
+      "content": "smoke-ok 9706b2e2",
+      "timestamp": "2026-04-23T01:18:47.935125+00:00",
+      "skill_id": null,
+      "spawned_task_id": null
+    },
+    {
+      "role": "user",
+      "content": "ping",
+      "timestamp": "2026-04-23T02:24:36.774692+00:00",
+      "skill_id": null,
+      "spawned_task_id": null
+    },
+    {
+      "role": "assistant",
+      "content": "smoke-ok 9706b2e2",
+      "timestamp": "2026-04-23T02:24:37.015392+00:00",
+      "skill_id": null,
+      "spawned_task_id": null
+    },
+    {
+      "role": "user",
+      "content": "ping",
+      "timestamp": "2026-04-23T02:38:52.926471+00:00",
+      "skill_id": null,
+      "spawned_task_id": null
+    },
+    {
+      "role": "assistant",
+      "content": "smoke-ok 9706b2e2",
+      "timestamp": "2026-04-23T02:38:52.991641+00:00",
+      "skill_id": null,
+      "spawned_task_id": null
+    }
+  ],
+  "spawned_tasks": [],
+  "created_at": "2026-04-23T01:18:47.889654+00:00",
+  "last_active_at": "2026-04-23T02:38:52.991641+00:00",
+  "ttl_seconds": 0,
+  "metadata": [],
+  "session_type": "thread",
+  "main_session_key": null,
+  "inbox_cursor": null,
+  "last_heartbeat_at": null,
+  "open_concerns": [],
+  "task_refs": []
+}

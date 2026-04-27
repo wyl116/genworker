@@ -1,0 +1,7 @@
+{
+  "tenant_id": "demo",
+  "name": "Demo Tenant",
+  "trust_level": 1,
+  "mcp_remote_allowed": false,
+  "default_worker": "analyst-01"
+}
